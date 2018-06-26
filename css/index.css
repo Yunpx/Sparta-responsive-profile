@@ -1,3 +1,21 @@
+@media only screen and (max-width: 850px) {
+	 header .right{
+			width: 100%;
+			text-align: center;
+		}
+
+	 section.right{
+		 width: 100%
+	}
+
+	.left, .Employment{
+		display: inline-block;
+		width: 100%;
+	}
+}
+
+
+
 header, section {
 	display: inline-block;
 }
