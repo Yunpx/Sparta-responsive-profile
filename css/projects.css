@@ -1,11 +1,4 @@
-@media only screen and (max-width: 1070px) {
-  .main-content .tiles .tile{
-    width: 100%;
-    border: none;
 
-  }
-}
-/* 1070 */
 .screenshot {
   padding-top:30px;
   height: 200px;
@@ -26,4 +19,38 @@
 .tile img	{
 	display: block;
 	margin: 0 auto;
+}
+/* desktop */
+@media only screen and (max-width: 1200px) {
+  .main-content .tiles .tile{
+    width: 100%;
+    border: none;
+    text-align: left;
+  }
+}
+/* ipad */
+@media only screen and (max-width: 768px) {
+  .main-content .tiles .tile{
+    width: 100%;
+    border: none;
+    text-align: left;
+  }
+
+  img.screenshot{
+    width:100%;
+    height: auto;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 376px) {
+  img.screenshot{
+    width:100%;
+    height: auto;
+  }
+
+  #headshot{
+    width: 100%;
+    height: auto;
+  }
+
 }

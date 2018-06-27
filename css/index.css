@@ -1,20 +1,3 @@
-@media only screen and (max-width: 850px) {
-	 header .right{
-			width: 100%;
-			text-align: center;
-		}
-
-	 section.right{
-		 width: 100%
-	}
-
-	.left, .Employment{
-		display: inline-block;
-		width: 100%;
-	}
-}
-
-
 
 header, section {
 	display: inline-block;
@@ -47,4 +30,42 @@ header, section {
 header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
+}
+/* ipad version */
+@media only screen and (max-width: 859px) {
+	 header .right, header .left, .left, section.right{
+			width: 100%;
+			text-align: center;
+		}
+
+	.skills li{
+		list-style: none;
+		padding-bottom: 5px;
+		border-bottom: solid black;
+		}
+
+	.Employment{
+		width: 100%;
+	}
+
+	section.left{
+		width: 100%;
+	}
+
+	.years{
+		display: inline-block;
+		width: 32%;
+	}
+}
+/* mobile */
+@media only screen and (max-width:420px) {
+	#headshot{
+		width: 100%;
+		height: 100%;
+	}
+
+	.years{
+		width: 100%;
+		display: block;
+	}
 }
