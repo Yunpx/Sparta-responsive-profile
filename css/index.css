@@ -1,0 +1,71 @@
+
+header, section {
+	display: inline-block;
+}
+
+.left {
+	float: left;
+	width: 35%;
+}
+
+.right {
+	float: right;
+	width: 60%;
+}
+
+#headshot {
+	display: block;
+	text-align: center;
+	margin: 50px auto 0;
+	border: 2px solid #E13A63;
+}
+
+.experience {
+	display: inline-block;
+	clear: both;
+	margin-top: 30px;
+	text-align: center;
+}
+
+header, .experience {
+	border: 2px solid #E13A63;
+	padding: 10px;
+}
+/* ipad version */
+@media only screen and (max-width: 859px) {
+	 header .right, header .left, .left, section.right{
+			width: 100%;
+			text-align: center;
+		}
+
+	.skills li{
+		list-style: none;
+		padding-bottom: 5px;
+		border-bottom: solid black;
+		}
+
+	.Employment{
+		width: 100%;
+	}
+
+	section.left{
+		width: 100%;
+	}
+
+	.years{
+		display: inline-block;
+		width: 32%;
+	}
+}
+/* mobile */
+@media only screen and (max-width:420px) {
+	#headshot{
+		width: 100%;
+		height: 100%;
+	}
+
+	.years{
+		width: 100%;
+		display: block;
+	}
+}
